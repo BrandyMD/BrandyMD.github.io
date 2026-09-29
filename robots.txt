@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://brandymd.github.io/sitemap.xml
