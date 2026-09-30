@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url><loc>https://brandymd.github.io/</loc></url>
-<url><loc>https://brandymd.github.io/contrast-checker/</loc></url>
-<url><loc>https://brandymd.github.io/guides/extract-hex-code-from-screenshot/</loc></url>
-<url><loc>https://brandymd.github.io/guides/wcag-contrast-ratio/</loc></url>
-<url><loc>https://brandymd.github.io/guides/accessible-text-colors/</loc></url>
+  <url><loc>https://brandymd.github.io/</loc></url>
+  <url><loc>https://brandymd.github.io/contrast-checker/</loc></url>
+  <url><loc>https://brandymd.github.io/guides/extract-hex-code-from-screenshot/</loc></url>
+  <url><loc>https://brandymd.github.io/guides/wcag-contrast-ratio/</loc></url>
+  <url><loc>https://brandymd.github.io/guides/accessible-text-colors/</loc></url>
+  <url><loc>https://brandymd.github.io/guides/find-hex-code-from-image/</loc></url>
+  <url><loc>https://brandymd.github.io/guides/aa-vs-aaa-contrast/</loc></url>
+  <url><loc>https://brandymd.github.io/guides/check-website-colors-for-accessibility/</loc></url>
+  <url><loc>https://brandymd.github.io/guides/save-parking-spot-on-android/</loc></url>
+  <url><loc>https://brandymd.github.io/guides/remember-where-you-parked/</loc></url>
+  <url><loc>https://brandymd.github.io/guides/split-restaurant-bill-with-tax-and-tip/</loc></url>
+  <url><loc>https://brandymd.github.io/guides/split-a-bill-fairly/</loc></url>
+  <url><loc>https://brandymd.github.io/guides/what-should-i-eat-for-dinner/</loc></url>
+  <url><loc>https://brandymd.github.io/guides/white-noise-for-sleep-and-focus/</loc></url>
 </urlset>

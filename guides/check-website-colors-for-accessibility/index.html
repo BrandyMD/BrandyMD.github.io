@@ -1,0 +1,43 @@
+<!doctype html><html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>How to Check Website Colors for Accessibility</title>
+<meta name="description" content="Use a simple color-audit workflow to check website text, buttons, links and interface colors for contrast problems.">
+<link rel="canonical" href="https://brandymd.github.io/guides/check-website-colors-for-accessibility/">
+<link rel="stylesheet" href="/styles.css">
+<meta property="og:title" content="How to Check Website Colors for Accessibility">
+<meta property="og:description" content="Use a simple color-audit workflow to check website text, buttons, links and interface colors for contrast problems.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://brandymd.github.io/guides/check-website-colors-for-accessibility/">
+</head>
+<body><header class="nav"><div class="container nav-inner">
+<a class="brand" href="/">Android Apps &amp; Digital Tools</a>
+<nav class="nav-links" aria-label="Main navigation">
+<a href="/#apps">Apps</a><a href="/#guides">Guides</a><a href="/contrast-checker/">Contrast Checker</a>
+</nav></div></header><main><article class="article container">
+<div class="breadcrumbs"><a href="/">Home</a> / Guides</div>
+<div class="eyebrow">Accessibility guide</div>
+<h1>How to Check Website Colors for Accessibility</h1>
+<p class="lede">A website color audit does not have to start with a giant accessibility report. Begin with the color combinations people must actually read and interact with, then test those pairs systematically.</p>
+
+<h2>Start with the highest-use color pairs</h2>
+<ol>
+<li>Body text against the main page background.</li>
+<li>Navigation and footer text.</li>
+<li>Buttons and the text inside them.</li>
+<li>Links in normal and hover/focus states.</li>
+<li>Form labels, hints, errors and validation messages.</li>
+<li>Text placed over photos, gradients or colored cards.</li>
+</ol>
+<h2>Use the exact production colors</h2>
+<p>Copy the hex values from your CSS or sample them from a screenshot of the real interface. Testing a “close enough” color can hide a failure that appears in production.</p>
+<h2>Fix systems, not isolated pixels</h2>
+<p>If the same failing color pair appears across many components, change the design token or shared CSS variable when possible. One system-level fix is easier to maintain than dozens of one-off overrides.</p>
+<h2>Recheck interactive states</h2>
+<p>Hover, focus, selected, disabled and error states often introduce new color combinations. Include them in the audit instead of testing only the default screen.</p>
+
+<div class="callout"><strong>Want the shortcut?</strong> <a href="https://play.google.com/store/apps/details?id=com.a11y.contrastchecker">Contrast Checker – WCAG 2.1</a> gives you a purpose-built Android tool for this workflow.</div>
+<div class="related"><h2>Related guides</h2><ul><li><a href="/guides/accessible-text-colors/">Choose accessible text colors</a></li><li><a href="/guides/aa-vs-aaa-contrast/">AA vs AAA contrast explained</a></li><li><a href="/guides/extract-hex-code-from-screenshot/">Extract a hex code from a screenshot</a></li></ul></div>
+</article></main><footer class="footer"><div class="container">
+<strong>Android Apps &amp; Digital Tools</strong><br>
+<span>Practical Android utilities and simple digital tools by Brandy Disher.</span>
+</div></footer></body></html>
