@@ -1,20 +1,18 @@
-# Additive 9-guide update — original wording restored
+# Additive app landing page update
 
-This version keeps the original site wording intact and only ADDS the new content.
+This update only ADDS to the current site.
 
-Restored exactly:
-- original homepage title/meta wording
-- original hero wording
-- original app titles/descriptions/order, including the previously added Realistic Pillbox and Spot Saver wording
-- original three guide card titles/descriptions
-- original Contrast Checker page wording
-- original three guide page titles, descriptions and body wording
+Added:
+- 9 dedicated app landing pages
+- small Learn more links beside the existing Google Play links on the homepage
+- the 9 new app landing URLs in sitemap.xml
 
-Still included:
-- all 9 new guide pages
-- internal links to the new guides
-- updated sitemap.xml
-- styling needed for the added guide sections
+Preserved:
+- all existing homepage wording
+- all existing app titles and descriptions
+- all 12 existing guide pages and their wording
+- the existing Contrast Checker page
+- existing styling and visual design
+- app-ads.txt is not included and remains untouched
 
-Upload the CONTENTS of this folder to the root of `BrandyMD.github.io`.
-Your existing `app-ads.txt` is not included and will remain untouched.
+After upload: 12 guide pages + 10 app landing pages + 1 homepage = 23 searchable entry pages.
