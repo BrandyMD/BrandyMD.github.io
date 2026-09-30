@@ -56,3 +56,15 @@ section{padding:34px 0 64px}
 .small{font-size:.9rem;color:var(--muted)}
 @media(max-width:850px){.grid,.guide-list{grid-template-columns:1fr 1fr}.feature{grid-template-columns:1fr}.nav-links{display:none}}
 @media(max-width:560px){.grid,.guide-list{grid-template-columns:1fr}.hero{padding-top:55px}.cluster-head{display:block}.cluster-head span{display:block;margin-top:4px}}
+
+
+.app-title-link{
+  color:inherit;
+  text-decoration:none;
+}
+.app-title-link:hover,
+.app-title-link:focus{
+  color:var(--accent2);
+  text-decoration:underline;
+  text-underline-offset:4px;
+}
